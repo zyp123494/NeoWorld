@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+output/
+runs/
+logs/
+wandb/
+*.log
+
+# Large model files and checkpoints
+examples/sky_images/*/finished_3dgs*.ply
+examples/sky_images/*/visibility_filter_all*.pth
+examples/sky_images/*/codebook*.pth
+examples/sky_images/*/is_sky_filter*.pth
+examples/sky_images/*/is_fg_filter*.pth
+examples/sky_images/*/delete_mask_all*.pth
+examples/sky_images/*/is_3d_fg*.pth
+examples/sky_images/*/*.splat
+
+# Weights directory
+midas_module/weights/
+*.pth
+*.pt
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+tmp/
+temp/
+
+# Video outputs
+*.mp4
+*.avi
+*.mov
+
+# Large image outputs
+output/**/*.png
+output/**/*.jpg
+
+# Compiled extensions
+*.o
+*.so
+*.dylib
+*.dll
+
+# Submodule build artifacts
+submodules/**/*.o
+submodules/**/build/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Gradio temp files
+flagged/
+
+# Git backups
+*.git.backup
+*.backup/

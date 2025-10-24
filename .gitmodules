@@ -1,0 +1,6 @@
+[submodule "midas_module"]
+	path = midas_module
+	url = https://github.com/isl-org/MiDaS.git
+[submodule "ObjectClear"]
+	path = ObjectClear
+	url = https://github.com/zjx0101/ObjectClear.git
