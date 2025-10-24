@@ -1,3 +1,4 @@
 # NeoWorld
 
-code is coming soon!
+TODO:
+update readme
