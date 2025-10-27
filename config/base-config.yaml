@@ -57,4 +57,4 @@ num_scenes: 8
 use_free_lunch: False
 
 num_completion: 1
-ss_path: "/data/vjuicefs_ai_camera_lgroup_ql/11181721/ICLR26/Amodal3R_sspose/train_sparse_strcuture_v1/epoch=19.ckpt"
+ss_path: "./amodal3r_align.ckpt"
