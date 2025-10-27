@@ -11,7 +11,7 @@ from scipy.interpolate import interp1d
 class AnimationPromptGen:
     def __init__(self):
         super(AnimationPromptGen, self).__init__()
-        self.model = "google/gemini-2.5-pro-preview"
+        self.model = "google/gemini-2.5-pro"
         self.client = OpenAI(
             api_key=os.environ["OPENAI_API_KEY"],
             base_url="https://openrouter.ai/api/v1",

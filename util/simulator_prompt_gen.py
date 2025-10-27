@@ -16,7 +16,7 @@ client = OpenAI(
 class SimulatorPromptGen:
     def __init__(self):
         super(SimulatorPromptGen, self).__init__()
-        self.model = "google/gemini-2.5-pro-preview"
+        self.model = "google/gemini-2.5-pro"
 
     def generate_prompt(self, bbox, instance_info, user_prompt):
         """
