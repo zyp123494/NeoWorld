@@ -47,6 +47,8 @@ We use [OpenRouter](https://openrouter.ai/) for LLM APIs. Please replace the API
 
 #### Interactive Demo
 
+  We use the tools from [splat](https://github.com/haoyi-duan/splat.git) for local visualization.
+
   ###### Local Visualization Setup:
   
   On your local laptop, clone this project and open `splat/index_stream.html`.
