@@ -39,6 +39,7 @@ Download the RepViT model and place it in the root directory:
 ```bash
 wget https://github.com/THU-MIG/RepViT/releases/download/v1.0/repvit_sam.pt
 ```
+Download our fine-tuned [Amodal3R checkpoint](https://drive.google.com/file/d/1xDwU7dOReeGLUf8WmsOubOFXZJT6VH4U/view?usp=sharing) and place it in the root directory.
 
 We use [OpenRouter](https://openrouter.ai/) for LLM APIs. Please replace the API key in `run_*.sh` files with your own.
 
